@@ -1,8 +1,8 @@
-# Escopo de produto — Appley
+# Escopo de produto — Suppley
 
 **Status:** em definição.
 **Versão:** rascunho 0.1.
-**Proprietário:** usuário do Appley.
+**Proprietário:** usuário do Suppley.
 **Base:** [contexto](../contexto.md), [decisões](decisoes.md) e [diretrizes](../diretrizes.md).
 
 ## Intenção já registrada

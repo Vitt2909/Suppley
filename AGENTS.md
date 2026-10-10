@@ -1,8 +1,8 @@
-# Orientações para trabalhar no Appley
+# Orientações para trabalhar no Suppley
 
 ## Contexto e leitura inicial
 
-O projeto se apresenta como **Appley**, anteriormente chamado **Suppley**. O repositório se chama `appley`. É um projeto para uso pessoal de seu proprietário, que combina agentes com automações para gerir uma operação de e-commerce.
+O nome do produto é **Suppley** e seu mascote é **Appley**. O repositório foi criado como `appley` e atualmente está em `Vitt2909/Suppley`. É um projeto para uso pessoal de seu proprietário, que combina agentes com automações para gerir uma operação de e-commerce.
 
 Antes de propor mudanças de produto ou arquitetura, leia:
 
@@ -17,7 +17,7 @@ As instruções atuais do usuário têm precedência sobre estas orientações. 
 ## Fase atual e decisões
 
 - A base atual é documental e visual; o escopo de produto está em definição.
-- A direção do mascote é a Caixa Viva, reproduzível em SVG. Consulte `docs/design/identidade.md` antes de alterar sua identidade.
+- O mascote Appley segue a direção Caixa Viva, reproduzível em SVG. Consulte `docs/design/identidade.md` antes de alterar sua identidade.
 - Diferencie decisões aceitas, hipóteses e sugestões do assistente.
 - Não apresente uma sugestão como recurso implementado ou decisão aprovada.
 - Atualize o registro de decisões quando o proprietário aceitar uma escolha.

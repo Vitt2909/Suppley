@@ -1,4 +1,4 @@
-# Diretrizes do Appley
+# Diretrizes do Suppley
 
 **Estado:** princípios de trabalho derivados da conversa e da pesquisa. Os limites operacionais concretos ainda precisam ser definidos no escopo.
 

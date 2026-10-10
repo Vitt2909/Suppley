@@ -6,7 +6,7 @@
 
 ## Personagem
 
-Uma caixa de papelão claro ganha expressão e movimento para representar o agente pessoal do proprietário. A identidade reúne corpo levemente arredondado, abas largas caídas, fita menta com pequeno recorte na ponta, olhos ovais escuros com brilho, sobrancelhas expressivas, mãos pequenas e pés arredondados.
+Appley é o mascote do Suppley. Uma caixa de papelão claro ganha expressão e movimento para representar o agente pessoal do proprietário. A identidade reúne corpo levemente arredondado, abas largas caídas, fita menta com pequeno recorte na ponta, olhos ovais escuros com brilho, sobrancelhas expressivas, mãos pequenas e pés arredondados.
 
 A pose principal mostra a lateral esquerda da caixa, um sorriso curto e uma das mãos levantada. As referências de estados exploram novas poses mantendo esses traços.
 

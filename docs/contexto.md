@@ -1,4 +1,4 @@
-# Contexto do Appley
+# Contexto do Suppley
 
 **Registrado em:** 10 de outubro de 2026. Esta é a data de consolidação; o texto registra a evolução da conversa, sem atribuir datas exatas a cada decisão anterior.
 
@@ -18,11 +18,11 @@ As necessidades discutidas incluíram encontrar fornecedores, acompanhar disponi
 6. **Base no repositório:** pediu que o repositório `Vitt2909/appley` recebesse o contexto, as diretrizes e os arquivos de pesquisa para definir o escopo de produto a partir daqui.
 
 7. **Identidade visual:** escolheu uma Caixa Viva como mascote, com formas reproduzíveis em SVG, e pediu referências de novas poses e estados.
-8. **Apresentação como Appley:** pediu a mudança de direção do README e a inclusão do Appley; a apresentação atual passa a usar esse nome e sua identidade visual, preservando o histórico de Suppley.
+8. **Apresentação do mascote:** pediu a mudança de direção do README e a inclusão do Appley. A apresentação incorpora a Caixa Viva e seus estados; Suppley permanece como nome do produto. O repositório foi renomeado no GitHub para `Vitt2909/Suppley`.
 
 ## Visão aceita
 
-O Appley é um projeto de uso pessoal que combina agentes, automações e integrações para acompanhar e gerir uma operação de e-commerce. O conceito foi descrito pelo proprietário como AaaS, enfatizando agentes com responsabilidades de gestão. Não há decisão de vender o produto como serviço para terceiros.
+O Suppley é um projeto de uso pessoal que combina agentes, automações e integrações para acompanhar e gerir uma operação de e-commerce. O conceito foi descrito pelo proprietário como AaaS, enfatizando agentes com responsabilidades de gestão. Não há decisão de vender o produto como serviço para terceiros.
 
 O agente pode investigar problemas, produzir respostas, acompanhar pendências e propor decisões. A execução precisa de informações atuais, validações e limites por tarefa.
 
@@ -32,7 +32,7 @@ A conversa passou por Dropi/Dropnacional, Dropify, Dogama, DSLite, DropCore, Ral
 
 Nenhuma contratação ou fornecedor ficou confirmado. Preços, notas e rankings mencionados na conversa não foram consolidados como evidência neste acervo; devem ser pesquisados novamente se forem necessários para uma decisão comercial.
 
-Ferramentas prontas continuam sendo possíveis componentes do Appley, caso simplifiquem a integração e atendam ao fluxo definido.
+Ferramentas prontas continuam sendo possíveis componentes do Suppley, caso simplifiquem a integração e atendam ao fluxo definido.
 
 ## Propostas apresentadas ao proprietário
 

@@ -2,9 +2,9 @@
 
 <img src="docs/assets/appley-caixa-viva.png" alt="Appley: uma caixa viva de papelão claro, com fita menta e expressão amigável" width="320" />
 
-# Appley
+# Suppley
 
-### Seu companheiro de operações no e-commerce.
+### Seu agente pessoal de e-commerce, com o Appley ao seu lado.
 
 Um agente pessoal para acompanhar fornecedores, pedidos e pendências — e ajudar você a decidir o próximo passo.
 
@@ -18,15 +18,15 @@ Um agente pessoal para acompanhar fornecedores, pedidos e pendências — e ajud
 
 ## Uma caixa viva, com uma função clara
 
-O **Appley** combina agentes, automações e integrações para ajudar seu proprietário a gerir uma operação de comércio eletrônico. A proposta é reunir contexto sobre fornecedores e vendas, investigar ocorrências e apresentar decisões com informações verificáveis.
+O **Suppley** combina agentes, automações e integrações para ajudar seu proprietário a gerir uma operação de comércio eletrônico. A proposta é reunir contexto sobre fornecedores e vendas, investigar ocorrências e apresentar decisões com informações verificáveis.
 
-Sua identidade nasce de uma **caixa viva**: papelão claro, fita verde-menta, olhos expressivos e formas arredondadas. É um companheiro que pode demonstrar quando está trabalhando, quando concluiu uma tarefa e quando precisa de você.
+O **Appley**, seu mascote, nasce de uma **caixa viva**: papelão claro, fita verde-menta, olhos expressivos e formas arredondadas. É um companheiro que pode demonstrar quando está trabalhando, quando concluiu uma tarefa e quando precisa de você.
 
-O projeto começou como **SupplyOS**, passou pelo nome **Suppley** e agora se apresenta como **Appley**. A origem e as decisões continuam registradas no [contexto](docs/contexto.md) e no [histórico de decisões](docs/product/decisoes.md).
+O projeto começou como **SupplyOS** e adotou o nome **Suppley**. O Appley dá forma à sua identidade visual e representa o agente na experiência do produto. A origem e as decisões continuam registradas no [contexto](docs/contexto.md) e no [histórico de decisões](docs/product/decisoes.md).
 
 > **Fase atual:** definição do produto e exploração visual. O repositório contém documentação, pesquisa e referências do mascote. As capacidades operacionais abaixo ainda precisam ser especificadas e implementadas.
 
-## O que o Appley poderá acompanhar
+## O que o Suppley poderá acompanhar
 
 | Na sua operação | Como o agente poderá ajudar |
 | --- | --- |
@@ -106,7 +106,7 @@ Consulte o [índice da pesquisa](docs/research/00-indice.md) para fontes e ressa
 
 ```text
 .
-├── README.md                  # Apresentação do Appley
+├── README.md                  # Apresentação do Suppley e seu mascote
 ├── AGENTS.md                  # Orientações de trabalho
 └── docs/
     ├── assets/                # Mascote, poses e histórico visual
@@ -119,6 +119,6 @@ Consulte o [índice da pesquisa](docs/research/00-indice.md) para fontes e ressa
 
 <div align="center">
 
-**Appley** · contexto para decidir, companhia para operar.
+**Suppley + Appley** · contexto para decidir, companhia para operar.
 
 </div>
