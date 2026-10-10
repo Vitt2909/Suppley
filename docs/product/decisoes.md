@@ -9,11 +9,15 @@ As decisões aceitas abaixo vêm de instruções do proprietário. As propostas 
 | ID | Decisão | Evidência na conversa |
 | --- | --- | --- |
 | D-001 | O projeto é para uso pessoal | O proprietário declarou que o SupplyOS seria somente para si |
-| D-002 | O nome do produto é Suppley | O nome intencional foi aceito pelo proprietário |
+| D-002 | O projeto adotou o nome Suppley na fase inicial; a apresentação atual segue D-007 | O nome intencional foi aceito pelo proprietário |
 | D-003 | Agentes trabalharão com automações e integrações | O proprietário descreveu agentes atuando como gestores e gerentes |
 | D-004 | O projeto passa à etapa de criação | O proprietário pediu para criar o Suppley desde o início |
 | D-005 | Pesquisar orientações de agentes e regras dos quatro marketplaces | Pedido explícito de Anthropic, OpenAI, Mercado Livre, Shopee, AliExpress e Amazon |
 | D-006 | Este repositório será a base da definição de produto | Pedido de semear `Vitt2909/appley` com contexto e documentação |
+| D-007 | O README passa a apresentar o Appley com sua identidade visual | Pedido de mudar a direção do README e adicionar o Appley, após a exploração do mascote |
+| D-008 | O mascote segue a direção Caixa Viva e deve ser reproduzível em SVG | Escolha explícita do proprietário na conversa |
+
+**Atualização de identidade — 10 de outubro de 2026:** o README apresenta o Appley como agente pessoal, incorpora a pose vetorial e a prancha de estados. As referências visuais não confirmam funções implementadas; seus usos na interface seguem como propostas em [identidade](../design/identidade.md). O nome anterior permanece no histórico.
 
 ## Propostas em avaliação
 

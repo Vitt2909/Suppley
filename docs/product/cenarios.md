@@ -1,4 +1,4 @@
-# Cenários para especificar o Suppley
+# Cenários para especificar o Appley
 
 **Status:** candidatos à definição de produto. Estes cenários descrevem o comportamento a discutir, não funcionalidades já implementadas.
 

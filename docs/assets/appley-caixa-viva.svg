@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 150 540 540" fill="none">
+  <title>Appley — Caixa Viva, versão 2</title>
+  <desc>Mascote vetorial de papelão dourado, com lateral esquerda aparente, abas caídas, fita verde-menta, olhos brilhantes e mãos e pés arredondados. Construído com caminhos, gradientes e filtros SVG, sem imagens incorporadas.</desc>
+  <defs>
+    <linearGradient id="front" x1="171" y1="282" x2="440" y2="552" gradientUnits="userSpaceOnUse"><stop stop-color="#F7CC91"/><stop offset=".4" stop-color="#F3C387"/><stop offset=".78" stop-color="#EAB577"/><stop offset="1" stop-color="#D99B59"/></linearGradient>
+    <linearGradient id="side" x1="76" y1="379" x2="183" y2="363" gradientUnits="userSpaceOnUse"><stop stop-color="#BD8446"/><stop offset=".35" stop-color="#D5A062"/><stop offset=".75" stop-color="#DBAA70"/><stop offset="1" stop-color="#B98147"/></linearGradient>
+    <linearGradient id="top" x1="224" y1="195" x2="240" y2="248" gradientUnits="userSpaceOnUse"><stop stop-color="#F8D49F"/><stop offset=".6" stop-color="#F4C790"/><stop offset="1" stop-color="#DEAA6C"/></linearGradient>
+    <linearGradient id="flapLeft" x1="169" y1="237" x2="222" y2="326" gradientUnits="userSpaceOnUse"><stop stop-color="#FFDBA7"/><stop offset=".5" stop-color="#F5C98F"/><stop offset="1" stop-color="#E4AC6C"/></linearGradient>
+    <linearGradient id="flapRight" x1="371" y1="218" x2="414" y2="311" gradientUnits="userSpaceOnUse"><stop stop-color="#FCD49C"/><stop offset=".62" stop-color="#F1C28B"/><stop offset="1" stop-color="#E4AD71"/></linearGradient>
+    <linearGradient id="backFlap" x1="53" y1="268" x2="110" y2="286" gradientUnits="userSpaceOnUse"><stop stop-color="#A86C34"/><stop offset="1" stop-color="#D6A166"/></linearGradient>
+    <linearGradient id="tapeTop" x1="224" y1="197" x2="324" y2="228" gradientUnits="userSpaceOnUse"><stop stop-color="#9DDCC6"/><stop offset="1" stop-color="#78CDB7"/></linearGradient>
+    <linearGradient id="tapeFront" x1="274" y1="245" x2="348" y2="271" gradientUnits="userSpaceOnUse"><stop stop-color="#8CD7BE"/><stop offset=".52" stop-color="#75C9AE"/><stop offset="1" stop-color="#4AA48B"/></linearGradient>
+    <radialGradient id="limb" cx=".3" cy=".18" r=".86"><stop stop-color="#F8CC91"/><stop offset=".48" stop-color="#E9B575"/><stop offset=".82" stop-color="#D49A58"/><stop offset="1" stop-color="#B67B3D"/></radialGradient>
+    <linearGradient id="leg" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#AA6E34"/><stop offset=".46" stop-color="#D79C5C"/><stop offset="1" stop-color="#F0BE80"/></linearGradient>
+    <radialGradient id="eye" cx=".32" cy=".2" r=".85"><stop stop-color="#554D3C"/><stop offset=".37" stop-color="#2B271E"/><stop offset=".75" stop-color="#171710"/><stop offset="1" stop-color="#3C3120"/></radialGradient>
+    <linearGradient id="brow" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#55462E"/><stop offset="1" stop-color="#28251B"/></linearGradient>
+    <radialGradient id="frontLight" cx=".31" cy=".3" r=".8"><stop stop-color="#FFE6BB" stop-opacity=".3"/><stop offset="1" stop-color="#FFE6BB" stop-opacity="0"/></radialGradient>
+    <filter id="ground" x="-.3" y="-1" width="1.6" height="3"><feGaussianBlur stdDeviation="10"/></filter>
+    <filter id="softShadow" x="-.4" y="-.4" width="1.8" height="1.9"><feDropShadow dx="1" dy="6" stdDeviation="5" flood-color="#76431D" flood-opacity=".26"/></filter>
+    <filter id="smallShadow" x="-.5" y="-.5" width="2" height="2"><feDropShadow dx="0" dy="2" stdDeviation="1.3" flood-color="#875526" flood-opacity=".28"/></filter>
+    <filter id="blur"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="paper" x="-.1" y="-.1" width="1.2" height="1.2" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="3" seed="19" stitchTiles="stitch" result="grain"/>
+      <feColorMatrix in="grain" type="saturate" values="0" result="grayGrain"/>
+      <feComponentTransfer in="grayGrain" result="faintGrain"><feFuncA type="linear" slope=".2"/></feComponentTransfer>
+      <feComposite in="faintGrain" in2="SourceGraphic" operator="in" result="clippedGrain"/>
+      <feBlend in="SourceGraphic" in2="clippedGrain" mode="soft-light"/>
+    </filter>    <clipPath id="frontClip"><path d="M161 252 Q167 235 193 234 L403 220 Q438 221 443 255 L449 468 Q449 505 414 519 L214 550 Q181 554 166 534 Q154 517 155 483 L151 294 Q150 269 161 252Z"/></clipPath>
+  </defs>
+  <g id="ground-shadow"><ellipse cx="264" cy="594" rx="202" ry="16" fill="#886445" opacity=".2" filter="url(#ground)"/><ellipse cx="265" cy="597" rx="124" ry="8" fill="#694423" opacity=".17" filter="url(#ground)"/></g>
+  <g id="feet" filter="url(#paper)">
+    <path d="M164 531 Q171 518 198 528 L218 563 L174 588 L150 576Z" fill="url(#leg)"/>
+    <path d="M152 565 Q168 550 194 558 Q218 561 227 581 Q231 591 229 603 Q218 615 187 614 Q155 613 143 602 Q140 588 152 565Z" fill="url(#limb)"/>
+    <path d="M292 520 L353 516 L363 563 Q344 578 289 576 Q284 557 292 520Z" fill="url(#leg)"/>
+    <path d="M292 558 Q308 546 337 551 Q372 550 385 574 Q392 584 390 594 Q367 604 335 600 Q303 599 286 590 Q283 575 292 558Z" fill="url(#limb)"/>
+    <path d="M151 602 Q184 615 224 604 M292 590 Q343 602 384 592" stroke="#98612D" stroke-opacity=".25" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g id="right-arm" filter="url(#paper)">
+    <path d="M433 409 Q450 403 471 409 Q493 431 477 454 Q465 473 440 470Z" fill="url(#limb)"/>
+    <path d="M452 411 Q448 405 454 396 Q463 380 478 384 Q497 387 503 407 Q511 438 493 457 Q481 465 468 458 Q456 453 454 440Z" fill="url(#limb)"/>
+    <path d="M455 413 Q461 407 473 413 Q486 419 478 431 Q466 438 459 428" fill="url(#limb)" filter="url(#smallShadow)"/>
+    <path d="M453 405 Q462 397 471 402" stroke="#A76A31" stroke-width="2" stroke-opacity=".25" stroke-linecap="round"/>
+  </g>
+  <g id="box" filter="url(#paper)">
+    <path d="M83 230 L130 235 L96 317 L39 324 Q32 324 36 315Z" fill="url(#backFlap)"/>
+    <path d="M40 316 L85 235" stroke="#ECC38E" stroke-width="2" stroke-opacity=".65" stroke-linecap="round"/>
+    <path d="M86 231 L169 240 L179 286 L103 277Z" fill="#88602F"/>
+    <path d="M128 244 Q87 252 78 284 Q71 305 78 355 L84 478 Q86 524 122 540 Q145 552 197 550 L177 275Z" fill="url(#side)"/>
+    <path d="M123 258 Q108 283 115 338 L121 472 Q122 518 145 539" stroke="#A66D35" stroke-opacity=".35" stroke-width="2"/>
+    <path d="M114 261 Q100 293 107 338 L112 459" stroke="#FFE0AC" stroke-opacity=".16" stroke-width="3"/>
+    <path d="M161 252 Q167 235 193 234 L403 220 Q438 221 443 255 L449 468 Q449 505 414 519 L214 550 Q181 554 166 534 Q154 517 155 483 L151 294 Q150 269 161 252Z" fill="url(#front)"/>
+    <g clip-path="url(#frontClip)">
+      <path d="M161 252 Q167 235 193 234 L403 220 Q438 221 443 255 L449 468 Q449 505 414 519 L214 550 Q181 554 166 534 Q154 517 155 483 L151 294 Q150 269 161 252Z" fill="url(#frontLight)"/>
+      <path d="M163 283 Q159 368 168 491 Q168 528 190 540" stroke="#FFF0CF" stroke-width="8" opacity=".17" filter="url(#blur)"/>
+      <path d="M181 538 Q206 541 234 537 L410 507 Q435 500 440 479" stroke="#AA692E" stroke-width="9" opacity=".15" filter="url(#blur)"/>
+      <path d="M167 284 L260 292 L286 269 L330 285 L409 272 L451 302" stroke="#895321" stroke-width="21" opacity=".12" filter="url(#blur)"/>
+    </g>
+  </g>
+  <g id="left-arm" filter="url(#paper)">
+    <path d="M126 419 Q112 415 96 430 Q67 446 63 472 Q59 496 76 514 Q97 535 121 528 Q138 525 141 510 Q144 494 128 483 Q137 468 138 447 Q139 429 126 419Z" fill="url(#limb)"/>
+    <path d="M117 471 Q133 473 139 489 Q146 508 133 520 Q124 526 118 517 Q113 510 117 498 Q120 489 113 483" fill="url(#limb)"/>
+    <path d="M121 480 Q127 485 122 491" stroke="#A87139" stroke-opacity=".55" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M82 450 Q72 465 74 479" stroke="#FFE0AE" stroke-opacity=".22" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g id="lid" filter="url(#paper)">
+    <path d="M84 226 Q125 208 189 203 L336 195 Q363 192 382 200 L423 216 L327 240 L142 244 L88 234 Q82 232 84 226Z" fill="url(#top)"/>
+    <path d="M88 228 Q135 233 174 238 M338 215 L419 215" stroke="#FFF0D0" stroke-opacity=".62" stroke-width="2" stroke-linecap="round"/>
+    <path d="M218 200 L277 196 Q301 204 328 219 L267 225Z" fill="url(#tapeTop)"/>
+    <path d="M267 224 L328 219 Q338 237 343 259 L351 291 Q352 296 348 297 L325 299 L318 289 L312 300 L290 303 Q285 302 288 297 Q290 292 287 283Z" fill="url(#tapeFront)" filter="url(#smallShadow)"/>
+    <path d="M271 226 L325 222" stroke="#B4E7D2" stroke-width="2" stroke-opacity=".55"/>
+    <path d="M140 236 L266 222 Q271 222 273 228 L291 280 Q294 287 286 291 L179 331 Q169 335 164 326 L137 245 Q135 238 140 236Z" fill="url(#flapLeft)" filter="url(#softShadow)"/>
+    <path d="M141 239 L262 225 M142 244 L168 323 Q171 330 178 327 L283 288" stroke="#FFE7BF" stroke-opacity=".6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M332 219 L421 215 Q429 216 433 221 L484 299 Q489 308 480 309 L377 293 Q369 292 366 286Z" fill="url(#flapRight)" filter="url(#softShadow)"/>
+    <path d="M337 222 L420 219 M337 225 L369 282 Q372 289 379 290 L478 305" stroke="#FFE7BD" stroke-opacity=".65" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g id="face">
+    <g id="eyebrows" fill="url(#brow)" filter="url(#smallShadow)">
+      <path d="M227 339 Q241 323 259 330 Q267 332 266 338 Q265 342 259 339 Q244 334 233 344 Q226 350 225 344 Q225 341 227 339Z"/>
+      <path d="M376 319 Q390 309 405 318 Q410 322 408 326 Q406 328 402 325 Q390 320 382 326 Q375 331 374 326 Q373 322 376 319Z"/>
+    </g>
+    <g id="eyes">
+      <ellipse cx="253" cy="401" rx="22" ry="37" transform="rotate(-3 253 401)" fill="#FFE0A9" opacity=".8"/>
+      <ellipse cx="253" cy="400" rx="20" ry="36" transform="rotate(-3 253 400)" fill="url(#eye)" stroke="#352B1C" stroke-width="1.2"/>
+      <ellipse cx="259" cy="382" rx="5.2" ry="8.5" transform="rotate(-10 259 382)" fill="#FFFCED"/>
+      <ellipse cx="390" cy="383" rx="19" ry="35" transform="rotate(2 390 383)" fill="#FFE0A9" opacity=".8"/>
+      <ellipse cx="391" cy="382" rx="17.5" ry="34" transform="rotate(2 391 382)" fill="url(#eye)" stroke="#352B1C" stroke-width="1.2"/>
+      <ellipse cx="396" cy="364" rx="4.6" ry="7.7" transform="rotate(-8 396 364)" fill="#FFFCED"/>
+      <path d="M244 427 Q254 433 262 427 M384 407 Q391 412 398 406" stroke="#C09F67" stroke-opacity=".18" stroke-width="1.7" stroke-linecap="round"/>
+    </g>
+    <g id="smile">
+      <path d="M300 436 Q326 452 351 430" stroke="#FFE5B4" stroke-opacity=".6" stroke-width="7" stroke-linecap="round"/>
+      <path d="M301 433 Q325 448 351 427" stroke="#342B1D" stroke-width="7" stroke-linecap="round"/>
+      <path d="M304 432 Q326 443 347 430" stroke="#665035" stroke-opacity=".55" stroke-width="1.6" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
+

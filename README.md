@@ -1,108 +1,124 @@
 <div align="center">
 
-![Suppley — operações com agentes](docs/assets/suppley-banner.svg)
+<img src="docs/assets/appley-caixa-viva.png" alt="Appley: uma caixa viva de papelão claro, com fita menta e expressão amigável" width="320" />
 
-**Um agente pessoal para acompanhar fornecedores, pedidos e decisões de uma operação de e-commerce.**
+# Appley
 
-`USO PESSOAL` · `PRODUTO EM DEFINIÇÃO` · `PESQUISA DOCUMENTADA`
+### Seu companheiro de operações no e-commerce.
 
-[Visão e contexto](docs/contexto.md) · [Escopo de produto](docs/product/escopo.md) · [Diretrizes](docs/diretrizes.md) · [Pesquisa](docs/research/00-indice.md)
+Um agente pessoal para acompanhar fornecedores, pedidos e pendências — e ajudar você a decidir o próximo passo.
+
+**USO PESSOAL** · **ESCOPO EM DEFINIÇÃO** · **IDENTIDADE EM EXPLORAÇÃO**
+
+[Conheça o Appley](#uma-caixa-viva-com-uma-função-clara) · [Defina o produto](docs/product/escopo.md) · [Explore a pesquisa](docs/research/00-indice.md)
 
 </div>
 
 ---
 
-## A ideia
+## Uma caixa viva, com uma função clara
 
-O **Suppley** nasce para ajudar seu proprietário a gerir uma operação de comércio eletrônico com agentes e automações. Ele deverá reunir informações, acompanhar pedidos, investigar problemas com fornecedores e apoiar decisões sobre catálogo, margem e atendimento.
+O **Appley** combina agentes, automações e integrações para ajudar seu proprietário a gerir uma operação de comércio eletrônico. A proposta é reunir contexto sobre fornecedores e vendas, investigar ocorrências e apresentar decisões com informações verificáveis.
 
-A ideia de comprar do fornecedor depois de receber uma venda orienta a descoberta do produto. Disponibilidade, origem do envio, prazo, pagamento e responsabilidade perante o comprador precisam ser confirmados para cada operação.
+Sua identidade nasce de uma **caixa viva**: papelão claro, fita verde-menta, olhos expressivos e formas arredondadas. É um companheiro que pode demonstrar quando está trabalhando, quando concluiu uma tarefa e quando precisa de você.
 
-O projeto evoluiu da proposta inicial **SupplyOS** para um agente pessoal chamado **Suppley**. Este repositório, identificado como `appley`, reúne a base para definir seu escopo e desenvolver o produto.
+O projeto começou como **SupplyOS**, passou pelo nome **Suppley** e agora se apresenta como **Appley**. A origem e as decisões continuam registradas no [contexto](docs/contexto.md) e no [histórico de decisões](docs/product/decisoes.md).
 
-> **Momento atual:** documentação e definição de produto. Há contexto, pesquisa e propostas de funcionamento; a aplicação, as integrações e a autonomia operacional ainda serão especificadas.
+> **Fase atual:** definição do produto e exploração visual. O repositório contém documentação, pesquisa e referências do mascote. As capacidades operacionais abaixo ainda precisam ser especificadas e implementadas.
 
-## O que queremos resolver
+## O que o Appley poderá acompanhar
 
-| Pergunta da operação | Capacidade a explorar |
+| Na sua operação | Como o agente poderá ajudar |
 | --- | --- |
-| O que vendi e o que está pendente? | Acompanhar pedidos e destacar ocorrências |
-| Consigo entregar o produto anunciado? | Verificar disponibilidade, identidade do item e prazo |
-| Quanto sobra nesta venda? | Calcular margem com custos verificáveis |
-| O que mudou no fornecedor? | Investigar alterações e propor uma resposta |
-| O que depende de uma decisão minha? | Mostrar pendências com contexto e evidências |
+| Pedidos e pendências | Mostrar o que aconteceu, o que falta e o que exige atenção |
+| Fornecedores e catálogo | Consultar disponibilidade, custo, variante e prazo |
+| Margem por venda | Reunir os custos e calcular o resultado estimado |
+| Mudanças e imprevistos | Investigar a ocorrência e apresentar opções com evidências |
+| Atendimento | Preparar respostas contextualizadas nos canais disponíveis |
+| Decisões e execução | Agir dentro dos limites definidos e solicitar sua participação quando necessário |
 
-Essas capacidades são candidatas ao escopo. O primeiro marketplace, fornecedor, catálogo e critérios de sucesso serão definidos em [escopo de produto](docs/product/escopo.md).
+O primeiro fluxo, marketplace, fornecedor e nível de autonomia serão escolhidos no [escopo de produto](docs/product/escopo.md).
 
-## Como o Suppley poderá funcionar
+## Um personagem que comunica o estado da operação
 
-```mermaid
-flowchart LR
-    O[Proprietário] --> S[Suppley]
-    S --> T[Ferramentas específicas]
-    T --> R[Regras e autorizações]
-    R --> I[Marketplaces e fornecedores]
-    I --> D[Estado e histórico]
-    D --> S
-    S --> P[Pendências com evidências]
-    P --> O
-```
+<img src="docs/assets/appley-poses-estados.png" alt="Oito referências do Appley: Olá, Pensando, Trabalhando, Concluído, Preciso de você, Em movimento, Descansando e Ops!" width="100%" />
 
-A proposta inicial combina um supervisor, ferramentas específicas e rotinas previsíveis. O agente interpreta situações e investiga exceções; a aplicação confere valores, limites e permissões antes de executar ações. Os resultados são confirmados na fonte e registrados.
+| Referência | Uso proposto na interface |
+| --- | --- |
+| **Olá** | Boas-vindas e apresentação |
+| **Pensando** | Análise de informações e investigação |
+| **Trabalhando** | Execução de uma tarefa |
+| **Concluído** | Resultado confirmado |
+| **Preciso de você** | Decisão, autorização ou informação pendente |
+| **Em movimento** | Progresso de uma tarefa com várias etapas |
+| **Descansando** | Nenhuma tarefa ativa |
+| **Ops!** | Falha que precisa de correção ou nova tentativa |
 
-**Implementação, modelo, framework, infraestrutura e banco de dados permanecem em aberto.** As recomendações da pesquisa servem para avaliar essas escolhas.
+Esses usos são propostas para a interface. O estado exibido deverá acompanhar o que realmente aconteceu na operação e vir com uma descrição clara.
+
+A pose principal já tem uma [versão SVG editável](docs/assets/appley-caixa-viva.svg), com elementos separados para facilitar futuras animações. A prancha de poses é uma referência em PNG; sua adaptação para SVG ainda será feita. Veja as [diretrizes de identidade](docs/design/identidade.md).
+
+## Como transformar a ideia em produto
+
+A proposta combina um agente supervisor, ferramentas específicas e rotinas de automação. O agente interpreta o contexto e investiga exceções; as ferramentas validam dados, valores e autorizações antes de executar ações. O resultado é confirmado na fonte e registrado no histórico.
+
+A intenção de comprar do fornecedor após uma venda orienta a descoberta do produto. Disponibilidade, origem do envio, prazo e pagamento precisam ser confirmados no fluxo escolhido.
+
+**Modelo, linguagem, framework, infraestrutura e banco de dados seguem em definição.** A pesquisa serve de base para essas escolhas.
 
 ## Comece por aqui
 
-| Documento | O que você encontrará |
+| Documento | Para quê |
 | --- | --- |
-| [Contexto](docs/contexto.md) | Origem da ideia, mudança de direção e intenção do proprietário |
-| [Decisões](docs/product/decisoes.md) | O que foi aceito, o que é proposta e o que falta decidir |
-| [Escopo](docs/product/escopo.md) | Documento de trabalho para definir a primeira versão |
-| [Cenários](docs/product/cenarios.md) | Situações concretas para especificar o comportamento do produto |
-| [Diretrizes](docs/diretrizes.md) | Princípios para ferramentas, estado, autonomia e integrações |
-| [AGENTS.md](AGENTS.md) | Instruções para agentes que trabalharem neste repositório |
+| [Escopo de produto](docs/product/escopo.md) | Escolher a primeira versão e seus critérios de aceitação |
+| [Cenários de operação](docs/product/cenarios.md) | Descrever situações reais e o comportamento esperado |
+| [Contexto e origem](docs/contexto.md) | Entender a evolução da ideia |
+| [Decisões](docs/product/decisoes.md) | Consultar escolhas aceitas e propostas em avaliação |
+| [Identidade visual](docs/design/identidade.md) | Manter a aparência e o significado dos estados do Appley |
+| [Diretrizes](docs/diretrizes.md) | Construir ferramentas, estado, autonomia e integrações |
+| [Orientações para agentes](AGENTS.md) | Trabalhar neste repositório |
 
-## Biblioteca de pesquisa
+## Pesquisa que sustenta a construção
 
-Material reunido em **10 de outubro de 2026**, com sínteses em português e links às fontes oficiais.
+Sínteses em português reunidas em **10 de outubro de 2026**, com links às fontes oficiais e limitações identificadas.
 
-| Tema | Referência |
+| Agentes | Marketplaces |
 | --- | --- |
-| Anthropic | [Arquitetura, ferramentas, contexto e avaliação](docs/research/01-anthropic-agentes.md) |
-| OpenAI | [SDK, ferramentas, aprovações e observabilidade](docs/research/02-openai-agentes.md) |
-| Mercado Livre | [Pedidos, autorização, mensagens e testes](docs/research/03-mercado-livre.md) |
-| Shopee | [Anúncios, dados de compradores e acesso à API](docs/research/04-shopee.md) |
-| AliExpress | [Business Program, sourcing e condições de integração](docs/research/05-aliexpress.md) |
-| Amazon | [SP-API, mensagens, dropshipping e logística](docs/research/06-amazon.md) |
+| [Anthropic: arquitetura, ferramentas e avaliação](docs/research/01-anthropic-agentes.md) | [Mercado Livre](docs/research/03-mercado-livre.md) |
+| [OpenAI: ferramentas, SDK e observabilidade](docs/research/02-openai-agentes.md) | [Shopee](docs/research/04-shopee.md) |
+| | [AliExpress](docs/research/05-aliexpress.md) |
+| | [Amazon](docs/research/06-amazon.md) |
 
-Os arquivos são sínteses de pesquisa, com limitações identificadas. Políticas, disponibilidade de APIs e requisitos por conta ou região devem ser revalidados antes de uma integração. Veja o [índice da pesquisa](docs/research/00-indice.md).
+Consulte o [índice da pesquisa](docs/research/00-indice.md) para fontes e ressalvas. Políticas e requisitos de integração devem ser revalidados antes de uso em produção.
 
-## Próximos marcos
+## Próximos passos
 
-- [x] Registrar contexto e decisões da conversa.
-- [x] Organizar diretrizes e pesquisa oficial.
-- [ ] Definir o escopo da primeira versão e seus critérios de aceitação.
-- [ ] Confirmar dados, fornecedor e integração do primeiro fluxo.
-- [ ] Escolher a arquitetura e implementar uma operação completa.
-- [ ] Verificar resultados e ampliar a autonomia conforme as evidências.
+- [x] Registrar contexto, diretrizes e pesquisa oficial.
+- [x] Escolher a Caixa Viva como direção do mascote.
+- [x] Criar uma pose principal em SVG e referências de novos estados.
+- [ ] Fechar o escopo da primeira versão.
+- [ ] Confirmar fornecedor, dados e integração do primeiro fluxo.
+- [ ] Definir como o proprietário acompanha tarefas e toma decisões.
+- [ ] Adaptar os estados selecionados para SVG e animação.
+- [ ] Escolher a arquitetura e implementar o primeiro fluxo completo.
 
-## Estrutura do repositório
+## Organização do repositório
 
 ```text
 .
-├── README.md                  # Apresentação e navegação
+├── README.md                  # Apresentação do Appley
 ├── AGENTS.md                  # Orientações de trabalho
 └── docs/
-    ├── assets/                # Elementos visuais da documentação
-    ├── contexto.md            # Histórico e intenção do produto
+    ├── assets/                # Mascote, poses e histórico visual
+    ├── design/                # Identidade e uso dos estados
+    ├── contexto.md            # Origem e evolução do projeto
     ├── diretrizes.md          # Princípios de construção e operação
     ├── product/               # Escopo, decisões e cenários
-    └── research/              # Acervo de pesquisa com fontes oficiais
+    └── research/              # Pesquisa com fontes oficiais
 ```
 
 <div align="center">
 
-**Suppley** · decisões com contexto, execução verificável.
+**Appley** · contexto para decidir, companhia para operar.
 
 </div>
