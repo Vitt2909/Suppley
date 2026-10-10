@@ -1,0 +1,26 @@
+# Credenciais e configuração local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+
+# Dados e arquivos locais da operação
+/work/
+/outputs/
+/data/private/
+/logs/
+/sessions/
+*.sqlite
+*.sqlite3
+*.db
+
+# Ambientes e dependências locais
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

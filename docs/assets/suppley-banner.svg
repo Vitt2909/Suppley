@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Suppley</title>
+  <desc id="desc">Cabeçalho do projeto Suppley, com fundo escuro, conexões e três áreas: pedidos, fornecedores e atendimento.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#21204b"/></linearGradient>
+    <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#5eead4"/><stop offset="1" stop-color="#a5b4fc"/></linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <circle cx="1060" cy="0" r="220" fill="#a5b4fc" opacity=".035"/>
+  <circle cx="1040" cy="300" r="170" fill="#5eead4" opacity=".035"/>
+  <rect x="66" y="60" width="46" height="6" rx="3" fill="url(#accent)"/>
+  <text x="66" y="141" fill="#f9fafb" font-family="Segoe UI,Arial,sans-serif" font-size="64" font-weight="700" letter-spacing="-2">Suppley</text>
+  <text x="69" y="187" fill="#d1d5db" font-family="Segoe UI,Arial,sans-serif" font-size="23">Operações com agentes. Decisões com contexto.</text>
+  <text x="69" y="251" fill="#5eead4" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="3">UM PROJETO PARA USO PESSOAL</text>
+  <path d="M790 83H860M790 160H860M790 237H860M790 83V237" fill="none" stroke="#5eead4" stroke-width="2" opacity=".45"/>
+  <circle cx="790" cy="160" r="20" fill="#5eead4" opacity=".14"/>
+  <circle cx="790" cy="160" r="6" fill="#5eead4"/>
+  <g fill="#151c35" stroke="#505a7a" stroke-opacity=".7">
+    <rect x="860" y="54" width="258" height="58" rx="12"/>
+    <rect x="860" y="131" width="258" height="58" rx="12"/>
+    <rect x="860" y="208" width="258" height="58" rx="12"/>
+  </g>
+  <g fill="#e5e7eb" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="1">
+    <text x="882" y="89">PEDIDOS</text><text x="882" y="166">FORNECEDORES</text><text x="882" y="243">ATENDIMENTO</text>
+  </g>
+  <g fill="#5eead4"><circle cx="1090" cy="83" r="4"/><circle cx="1090" cy="160" r="4"/><circle cx="1090" cy="237" r="4"/></g>
+</svg>
